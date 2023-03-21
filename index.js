@@ -23,7 +23,7 @@ rond3.classList.add("rond3");
 rond3.style.width="150px";
 rond3.style.height="150px";
 
-const mouses =document.querySelectorAll("rond1 rond2 rond3");
+const mouses =document.querySelectorAll(".rond1, .rond2, .rond3");
 
 window.addEventListener('mousemove',(e) =>{
     mouses.forEach((mouse) => {
